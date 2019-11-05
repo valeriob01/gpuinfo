@@ -25,6 +25,6 @@ namespace gpuinfo {
 
 
 		/// Returns all GPU's properties.
-		std::vector<device_properties_t> device_properties();
+		std::vector<device_properties_t> device_properties(cl_uint device);
 	}  // namespace gpu
 } // namespace gpuinfo
